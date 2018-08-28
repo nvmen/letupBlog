@@ -12,9 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('layout.backend');
 });
-
-// MediaManager
-ctf0\MediaManager\MediaRoutes::routes();
-Route::get('/login', ['uses' => 'Auth\LoginController@login_view', 'as' => 'login.view']);

@@ -17,15 +17,7 @@ class CreateUsersTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('email')->unique();
-            $table->string('username');
-            $table->string('password');           
-            $table->tinyInteger('account_vip');
-            $table->boolean('confirmed');
-            $table->tinyInteger('status');
-            $table->string('account_type',50);
-            $table->string('user_image')->nullable();
-            $table->string('sex')->nullable();
-            $table->softDeletes();
+            $table->string('password');
             $table->rememberToken();
             $table->timestamps();
         });

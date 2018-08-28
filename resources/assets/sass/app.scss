@@ -5,9 +5,19 @@
 // Variables
 @import 'variables';
 
+//C:\xampp\htdocs\MonitaBlog\node_modules\@coreui\icons\css\coreui-icons.css
+@import 'node_modules/@coreui/icons/scss/coreui-icons.scss';
+//node_modules\flag-icon-css\sass\flag-icon.scss
+@import 'node_modules/flag-icon-css/sass/flag-icon.scss';
+//C:\xampp\htdocs\MonitaBlog\node_modules\font-awesome\scss\font-awesome.scss
+@import 'node_modules/font-awesome/scss/font-awesome.scss';
+
+//C:\xampp\htdocs\MonitaBlog\node_modules\simple-line-icons\scss\simple-line-icons.scss
+@import 'node_modules/simple-line-icons/scss/simple-line-icons.scss';
+
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
-
+@import '../css/style.css'; 
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
